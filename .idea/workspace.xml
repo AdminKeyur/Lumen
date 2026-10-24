@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d34b2d-3d9e-4647-82f7-6dacb66d5e77" name="Changes" comment="Start the stack with Docker Compose, run local" />
+    <list default="true" id="60d34b2d-3d9e-4647-82f7-6dacb66d5e77" name="Changes" comment="Backend and model-server container build files. and architectural notes added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +13,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="drashti-run-lumen" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "drashtiitaliya"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;drashtiitaliya&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/AdminKeyur/Lumen.git",
+    "url": "git@github.com:AdminKeyur/Lumen.git",
     "accountId": "3955f2f8-9719-411f-b783-07814fb3edc4"
   }
 }]]></component>
@@ -51,8 +51,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "drashti-run-lumen",
-    "git.auto.fetch.suggestion.counter": "1",
+    "git-widget-placeholder": "drashti-arch-note",
+    "git.auto.fetch.suggestion.counter": "2",
     "last_opened_file_path": "/home/drashti/Projects/Drashti.project/Lumen",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,6 +78,7 @@
       <updated>1791656884758</updated>
       <workItem from="1791656885767" duration="299000" />
       <workItem from="1791657218722" duration="3339000" />
+      <workItem from="1792176986916" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="Start the stack with Docker Compose, run local">
       <option name="closed" value="true" />
@@ -87,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791661547213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Backend and model-server container build files. and architectural notes added">
+      <option name="closed" value="true" />
+      <created>1792177174424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792177174424</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start the stack with Docker Compose, run local" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start the stack with Docker Compose, run local" />
+    <MESSAGE value="Backend and model-server container build files. and architectural notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend and model-server container build files. and architectural notes added" />
   </component>
 </project>
