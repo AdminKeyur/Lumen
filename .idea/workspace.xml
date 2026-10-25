@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60d34b2d-3d9e-4647-82f7-6dacb66d5e77" name="Changes" comment="Backend and model-server container build files. and architectural notes added" />
+    <list default="true" id="60d34b2d-3d9e-4647-82f7-6dacb66d5e77" name="Changes" comment="Base infrastructure starts with one command and passes health checks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="drashti-run-lumen" />
+        <entry key="$PROJECT_DIR$" value="drashti-arch-note" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,12 +24,12 @@
     &quot;assignee&quot;: &quot;drashtiitaliya&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:AdminKeyur/Lumen.git",
-    "accountId": "3955f2f8-9719-411f-b783-07814fb3edc4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AdminKeyur/Lumen.git&quot;,
+    &quot;accountId&quot;: &quot;3955f2f8-9719-411f-b783-07814fb3edc4&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -51,8 +51,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "drashti-arch-note",
-    "git.auto.fetch.suggestion.counter": "2",
+    "git-widget-placeholder": "drashti-dev-infra",
+    "git.auto.fetch.suggestion.counter": "3",
     "last_opened_file_path": "/home/drashti/Projects/Drashti.project/Lumen",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,6 +79,7 @@
       <workItem from="1791656885767" duration="299000" />
       <workItem from="1791657218722" duration="3339000" />
       <workItem from="1792176986916" duration="1391000" />
+      <workItem from="1792800889139" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Start the stack with Docker Compose, run local">
       <option name="closed" value="true" />
@@ -96,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792177174424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Base infrastructure starts with one command and passes health checks">
+      <option name="closed" value="true" />
+      <created>1792800967368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792800967368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start the stack with Docker Compose, run local" />
     <MESSAGE value="Backend and model-server container build files. and architectural notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend and model-server container build files. and architectural notes added" />
+    <MESSAGE value="Base infrastructure starts with one command and passes health checks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base infrastructure starts with one command and passes health checks" />
   </component>
 </project>
